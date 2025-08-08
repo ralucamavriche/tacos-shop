@@ -189,6 +189,7 @@ a:active {
     top: -100px;
     left: 20px;
     animation: showWelcome 0.5s ease-in-out 1s forwards;
+    will-change: transform, top;
 }
 
 @keyframes showWelcome {
@@ -272,7 +273,7 @@ a:active {
 .contact__textarea {
     padding: 0.5em;
     border-radius: var(--BORDER-RADIUS);
-    border-width: 2px;
+    border: 2px solid var(--BORDER-COLOR);
     width: 100%;
 }
 
@@ -295,7 +296,7 @@ tr {
 
 .menu__container {
     display: grid;
-    grid-template-columns: repeta(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
         "hd1 hd2 hd3"
         "cr cr1 cr1p"
