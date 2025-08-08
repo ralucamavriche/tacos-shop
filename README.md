@@ -1,3 +1,6 @@
+# Demo
+
+Access the live demo here: [https://ralucamavriche.github.io/tacos-shop/](https://ralucamavriche.github.io/tacos-shop/)
 # The Little Taco Shop
 
 Welcome to **The Little Taco Shop** website! This project is a static, responsive website for a fictional taco shop, showcasing its menu, hours, contact information, and more.
